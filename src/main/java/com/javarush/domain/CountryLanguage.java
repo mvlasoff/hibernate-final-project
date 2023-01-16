@@ -5,6 +5,7 @@ import org.hibernate.annotations.Type;
 
 import java.math.BigDecimal;
 
+@SuppressWarnings("unused")
 @Entity
 @Table(schema = "world", name = "country_language")
 public class CountryLanguage {

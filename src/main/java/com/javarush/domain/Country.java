@@ -5,6 +5,7 @@ import jakarta.persistence.*;
 import java.math.BigDecimal;
 import java.util.Set;
 
+@SuppressWarnings("unused")
 @Entity
 @Table(schema = "world", name = "country")
 public class Country {

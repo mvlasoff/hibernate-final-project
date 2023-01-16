@@ -2,6 +2,7 @@ package com.javarush.domain;
 
 import jakarta.persistence.*;
 
+@SuppressWarnings("unused")
 @Entity
 @Table(schema = "world", name = "city")
 public class City {
